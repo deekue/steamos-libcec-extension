@@ -3,7 +3,7 @@
 Add HDMI CEC support to SteamOS, requires [supported
 hardware](https://github.com/Pulse-Eight/libcec#supported-hardware).
 
-[install.sh](https://github.com/deekue/steamos-libcec-extension/raw/main/install.sh) sets up [systemd-sysext](https://www.freedesktop.org/software/systemd/man/systemd-sysext.html) then builds and installs an extension that includes [libcec](https://github.com/Pulse-Eight/libcec) and systemd unit files.
+[cec-install.sh](https://github.com/deekue/steamos-libcec-extension/raw/main/install.sh) sets up [systemd-sysext](https://www.freedesktop.org/software/systemd/man/systemd-sysext.html) then builds and installs an extension that includes [libcec](https://github.com/Pulse-Eight/libcec) and systemd unit files.
 
 The included systemd unit files will:
 - power on, resume: power on the TV and set SteamDeck as active source 
