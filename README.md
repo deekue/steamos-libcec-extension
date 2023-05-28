@@ -29,3 +29,9 @@ update    update extension and activate
 uninstall deactive extension and remove
 ```
 
+## References
+
+- https://blogs.igalia.com/berto/2022/09/13/adding-software-to-the-steam-deck-with-systemd-sysext/
+- https://www.reddit.com/r/SteamDeck/comments/10nksyr/adding_hdmicec_to_a_dock_using_a_pulseeight_usb/j6a9k3z/?context=3
+- https://wiki.archlinux.org/title/Power_management#Combined_suspend/resume_service_file
+- https://github.com/Pulse-Eight/libcec/tree/master/systemd
